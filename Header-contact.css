@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Arista;
+  src: url(arista/[z]\ Arista\ Trial.ttf);
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  gap: 15px;
+  /*border-radius: 100vw;*/
+  font-family: Arista;  
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: whitesmoke;  
+  word-spacing: 10px;
+}

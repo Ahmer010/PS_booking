@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PS_booking</title>
+
+  <link rel="stylesheet" href="Contact-style.css">
+  <link rel="stylesheet" href="Header-contact.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <!--LOGO-->
+    <div class="logo-container">
+      Podium Social  
+    </div>
+
+  </header>
+
+  <form action="https://formspree.io/f/mlekgbyj" method="post">
+
+    <h3>Booking Scedule</h3>
+
+    <div class="content">
+
+      <div class="input-content">
+
+        <h4>Contact Info</h4>        
+
+        <div name="Business-name" 
+          class="sub">
+
+          <label for="Business-name">Business Name</label>
+          <input name="Business-name" id="Business-name" type="text" placeholder="Example Co." required>
+        </div>
+
+        <div name="Email" 
+          class="sub">
+          
+          <label for="Email">Email or Phone number</label>
+          <input name="Email" id="Email" type="text" placeholder="example@gmail.com" required>
+        </div>
+
+      </div>
+
+      <div name="Booking"
+      
+        class="booking-column">
+
+        <h4>Booking</h4> 
+
+        <div name="Time" 
+          class="sub">
+
+          <label for="Time">Time</label>
+          <input name="Time" id="Time" type="time" required>
+        </div>
+
+        <div name="Date" 
+          class="sub">
+
+          <label for="Date">Date</label>
+          <input name="Date" id="Date" type="date" required>
+        </div>
+
+      </div>
+
+    </div>
+
+    <button type="reset">Reset All</button>
+    <button type="submit">Submit</button>
+    
+  </form>
+
+</body>
+</html>
